@@ -18,6 +18,10 @@ CREATE TABLE pedidos (
     FOREIGN KEY (cliente_id) REFERENCES clientes(cliente_id)
 );
 
+select * from clientes;
+select * from pedidos;
+
+
 -- Insertar datos
 INSERT INTO clientes (cliente_id, nombre, ciudad) VALUES
 (1, 'Ana Torres', 'Madrid'),
